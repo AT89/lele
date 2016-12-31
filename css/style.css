@@ -9,7 +9,7 @@ img.bg {
   left: 0;
   z-index: -1;
 }
-@media screen and (max-width: 1365px) {
+@media screen and (max-width: 830px) {
   img.bg {
     left: 30%;
     margin-left: -512px;
@@ -53,6 +53,7 @@ img.bg {
   display:none;
   height: 100%;
   width: 30px;
+  margin-top: .5em;
   cursor: pointer;
   flex-direction: column;
   justify-content: center;
@@ -106,7 +107,6 @@ img.bg {
     position: absolute;
     top: 0;
     margin-top: 50px;
-    left: 0;
     flex-direction: column;
     width: 100%;
     justify-content: center;
@@ -127,12 +127,13 @@ img.bg {
   }
 
   #menu-toggle:checked ~ .menu li{
-    border: 1px solid #333;
+    background: transparent;
     height: 2.5em;
     padding: 0.5em;
     transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
     z-index: 1;
     opacity: 1;
+    margin-left: 80%;
   }
 
   .menu > li {
