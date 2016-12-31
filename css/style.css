@@ -1,0 +1,20 @@
+
+img.bg {
+  min-height: 100%;
+  min-width: 1365px;
+  width: 100%;
+  height: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+@media screen and (max-width: 1365px) {
+  img.bg {
+    left: 30%;
+    margin-left: -512px;   /* 50% */
+  }
+}
+
+nav {
+
+}
