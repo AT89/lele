@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Playball|Playfair+Display+SC');
 
 img.bg {
   min-height: 100%;
@@ -28,6 +29,8 @@ img.bg {
 }
 #lele {
   font-size: 4em;
+  /*font-family: 'Playfair Display SC', serif;*/
+  font-family: 'Playball', cursive;
 }
 .menu {
   display: flex;
